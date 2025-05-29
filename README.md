@@ -1,107 +1,116 @@
-# :wave: The Basics of GitHub 
+# 👋 O Básico do GitHub
+## 🤓 Visão geral do curso e resultados de aprendizagem
+O objetivo deste curso é fornecer uma breve introdução ao GitHub.
+Também forneceremos materiais para aprendizado adicional e algumas ideias para você começar em nossa plataforma. 🚀
 
-## 🤓 Course overview and learning outcomes 
+## ![:octocat:](https://github.githubassets.com/images/icons/emoji/octocat.png ":octocat:") Git e GitHub
 
-The goal of this course is to give you a brief introduction to GitHub. We’ll also provide you with materials for further learning and a few ideas to get you started on our platform. 🚀
+Git é um **Sistema de Controle de Versão Distribuído (VCS)**, o que significa que é uma ferramenta útil para rastrear facilmente as mudanças em seu código, colaborar e compartilhar. Com o Git, você pode rastrear as alterações que faz em seu projeto para ter sempre um registro do que você trabalhou e pode facilmente reverter para uma versão mais antiga, se necessário. Ele também facilita o trabalho com outras pessoas — grupos de pessoas podem trabalhar juntos no mesmo projeto e mesclar suas alterações em uma única fonte final!
 
-## :octocat: Git and GitHub
+GitHub é uma maneira de usar o mesmo poder do Git totalmente online com uma interface fácil de usar. É usado em todo o mundo do software e além para colaborar e manter o histórico de projetos.
+O GitHub é o lar de algumas das tecnologias mais avançadas do mundo.
+Seja você visualizando dados ou construindo um novo jogo, há uma comunidade inteira e um conjunto de ferramentas no GitHub que podem levá-lo ao próximo passo. Este curso começa com o básico do GitHub, mas vamos aprofundar no restante mais tarde.
 
-Git is a **distributed Version Control System (VCS)**, which means it is a useful tool for easily tracking changes to your code, collaborating, and sharing. With Git you can track the changes you make to your project so you always have a record of what you’ve worked on and can easily revert back to an older version if need be. It also makes working with others easier—groups of people can work together on the same project and merge their changes into one final source!
+## ![:octocat:](https://github.githubassets.com/images/icons/emoji/octocat.png ":octocat:") Entendendo o fluxo do GitHub
 
-GitHub is a way to use the same power of Git all online with an easy-to-use interface. It’s used across the software world and beyond to collaborate and maintain the history of projects.
+O fluxo do GitHub é um fluxo de trabalho leve que permite experimentar e colaborar em seus projetos facilmente, sem o risco de perder seu trabalho anterior.
 
-GitHub is home to some of the most advanced technologies in the world. Whether you're visualizing data or building a new game, there's a whole community and set of tools on GitHub that can get you to the next step. This course starts with the basics of GitHub, but we'll dig into the rest later.
+### Repositórios
+Um repositório é onde o trabalho do seu projeto acontece — pense nele como a pasta do seu projeto.
+Ele contém todos os arquivos do seu projeto e o histórico de revisões. Você pode trabalhar em um repositório sozinho ou convidar outras pessoas para colaborar com você nesses arquivos.
 
-## :octocat: Understanding the GitHub flow 
+### Clonagem
 
-The GitHub flow is a lightweight workflow that allows you to experiment and collaborate on your projects easily, without the risk of losing your previous work.
+Quando um repositório é criado com o GitHub, ele é armazenado remotamente na ☁️. Você pode clonar um repositório para criar uma cópia local em seu computador e, em seguida, usar o Git para sincronizar os dois. Isso facilita a correção de problemas, a adição ou remoção de arquivos e o envio de commits maiores.
+Você também pode usar a ferramenta de edição de sua escolha em vez da interface do usuário do GitHub. Clonar um repositório também baixa todos os dados do repositório que o GitHub possui naquele momento, incluindo todas as versões de cada arquivo e pasta do projeto! Isso pode ser útil se você experimentar seu projeto e depois perceber que gostou mais de uma versão anterior.
 
-### Repositories
+Para saber mais sobre clonagem, leia ["Clonando um Repositório"](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
 
-A repository is where your project work happens--think of it as your project folder. It contains all of your project’s files and revision history.  You can work within a repository alone or invite others to collaborate with you on those files.
+### Commit e push
+**Commitar** e **enviar (push)** são as formas de adicionar as alterações que você fez em sua máquina local para o repositório remoto no GitHub.
+Dessa forma, seu instrutor e/ou colegas de equipe podem ver seu trabalho mais recente quando você estiver pronto para compartilhá-lo. Você pode fazer um commit quando tiver feito alterações em seu projeto que deseja "checkpointar". Você também pode adicionar uma **mensagem de commit** útil para lembrar a si mesmo ou a seus colegas de equipe qual trabalho você fez (por exemplo, "Adicionado um README com informações sobre nosso projeto").
 
-### Cloning 
+Uma vez que você tenha um commit ou vários commits que você está pronto para adicionar ao seu repositório, você pode usar o comando push para adicionar essas alterações ao seu repositório remoto. Commitar e enviar pode parecer novo no início, mas prometemos que você se acostumará com isso 🙂
 
-When a repository is created with GitHub, it’s stored remotely in the ☁️. You can clone a repository to create a local copy on your computer and then use Git to sync the two. This makes it easier to fix issues, add or remove files, and push larger commits. You can also use the editing tool of your choice as opposed to the GitHub UI. Cloning a repository also pulls down all the repository data that GitHub has at that point in time, including all versions of every file and folder for the project! This can be helpful if you experiment with your project and then realize you liked a previous version more. 
-To learn more about cloning, read ["Cloning a Repository"](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository). 
+## 💻 Termos do GitHub para saber
 
-### Committing and pushing
-**Committing** and **pushing** are how you can add the changes you made on your local machine to the remote repository in GitHub. That way your instructor and/or teammates can see your latest work when you’re ready to share it. You can make a commit when you have made changes to your project that you want to “checkpoint.” You can also add a helpful **commit message** to remind yourself or your teammates what work you did (e.g. “Added a README with information about our project”).
+### Repositórios
+Já mencionamos os repositórios, eles são onde o trabalho do seu projeto acontece, mas vamos falar um pouco mais sobre os detalhes deles! À medida que você trabalha mais no GitHub, você terá muitos repositórios, o que pode parecer confuso no início.
+Felizmente, seu ["painel do GitHub"](https://docs.github.com/en/github/setting-up-and-managing-your-github-user-account/about-your-personal-dashboard) ajuda a navegar facilmente para seus repositórios e ver informações úteis sobre eles. Certifique-se de estar logado para vê-lo!
+Os repositórios também contêm **READMEs**.
+Você pode adicionar um arquivo README ao seu repositório para informar a outras pessoas por que seu projeto é útil, o que elas podem fazer com seu projeto e como elas podem usá-lo. Estamos usando este README para comunicar como aprender Git e GitHub com você. 😄
 
-Once you have a commit or multiple commits that you’re ready to add to your repository, you can use the push command to add those changes to your remote repository. Committing and pushing may feel new at first, but we promise you’ll get used to it 🙂
-
-## 💻 GitHub terms to know 
-
-### Repositories 
-We mentioned repositories already, they are where your project work happens, but let’s talk a bit more about the details of them! As you work more on GitHub you will have many repositories which may feel confusing at first. Fortunately, your ["GitHub dashboard"](https://docs.github.com/en/github/setting-up-and-managing-your-github-user-account/about-your-personal-dashboard) helps to easily navigate to your repositories and see useful information about them. Make sure you’re logged in to see it!
-
-Repositories also contain **README**s. You can add a README file to your repository to tell other people why your project is useful, what they can do with your project, and how they can use it. We are using this README to communicate how to learn Git and GitHub with you. 😄 
-To learn more about repositories read ["Creating, Cloning, and Archiving Repositories](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/about-repositories) and ["About README's"](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/about-readmes). 
+Para saber mais sobre repositórios, leia ["Criando, Clonando e Arquivando Repositórios"](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/about-repositories) e ["Sobre READMEs"](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/about-readmes).
 
 ### Branches
-You can use branches on GitHub to isolate work that you do not want merged into your final project just yet. Branches allow you to develop features, fix bugs, or safely experiment with new ideas in a contained area of your repository. Typically, you might create a new branch from the default branch of your repository—main. This makes a new working copy of your repository for you to experiment with. Once your new changes have been reviewed by a teammate, or you are satisfied with them, you can merge your changes into the default branch of your repository.
-To learn more about branching, read ["About Branches"](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-branches).
+Você pode usar branches no GitHub para isolar o trabalho que você não quer que seja mesclado em seu projeto final ainda.
+Branches permitem que você desenvolva recursos, corrija bugs ou experimente com segurança novas ideias em uma área contida do seu repositório. Tipicamente, você pode criar uma nova branch a partir da branch padrão do seu repositório — main. Isso cria uma nova cópia de trabalho do seu repositório para você experimentar.
+Uma vez que suas novas alterações tenham sido revisadas por um colega de equipe, ou você esteja satisfeito com elas, você pode mesclar suas alterações na branch padrão do seu repositório.
+Para saber mais sobre branching, leia ["Sobre Branches"](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-branches).
 
 ### Forks
-A fork is another way to copy a repository, but is usually used when you want to contribute to someone else’s project. Forking a repository allows you to freely experiment with changes without affecting the original project and is very popular when contributing to open source software projects!
-To learn more about forking, read ["Fork a repo"](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo)
+
+Um fork é outra maneira de copiar um repositório, mas geralmente é usado quando você deseja contribuir para o projeto de outra pessoa. Fazer um fork de um repositório permite que você experimente livremente com alterações sem afetar o projeto original e é muito popular ao contribuir para projetos de software de código aberto!
+Para saber mais sobre forking, leia ["Fork de um repositório"](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo)
 
 ### Pull requests
-When working with branches, you can use a pull request to tell others about the changes you want to make and ask for their feedback. Once a pull request is opened, you can discuss and review the potential changes with collaborators and add more changes if need be. You can add specific people as reviewers of your pull request which shows you want their feedback on your changes! Once a pull request is ready-to-go, it can be merged into your main branch.
-To learn more about pull requests, read ["About Pull Requests"](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests). 
+Ao trabalhar com branches, você pode usar um pull request para informar outras pessoas sobre as alterações que você deseja fazer e pedir feedback. Uma vez
+você também pode vincular pull requests e issues para mostrar que uma correção está em andamento e para fechar automaticamente a issue quando alguém mescla o pull request.
+Para saber mais sobre issues e vinculá-las aos seus pull requests, leia ["Sobre Issues"](https://docs.github.com/en/github/managing-your-work-on-github/about-issues).
 
+### Seu perfil de usuário
 
-### Issues
-Issues are a way to track enhancements, tasks, or bugs for your work on GitHub. Issues are a great way to keep track of all the tasks you want to work on for your project and let others know what you plan to work on. You can also use issues to tell a favorite open source project about a bug you found or a feature you think would be great to add!
+Sua página de perfil conta a história do seu trabalho através dos repositórios em que você está interessado, as contribuições que você fez e as conversas que você teve. Você também pode dar ao mundo uma visão única de quem você é com o README do seu perfil. Você pode usar seu perfil para informar a futuros empregadores tudo sobre você!
 
-For larger projects, you can keep track of many issues on a project board. GitHub Projects help you organize and prioritize your work and you can read more about them [in this "About Project boards document](https://docs.github.com/en/github/managing-your-work-on-github/about-project-boards). You likely won’t need a project board for your assignments, but once you move on to even bigger projects, they’re a great way to organize your team’s work!
-You can also link together pull requests and issues to show that a fix is in progress and to automatically close the issue when someone merges the pull request.
-To learn more about issues and linking them to your pull requests, read ["About Issues"](https://docs.github.com/en/github/managing-your-work-on-github/about-issues). 
+Para saber mais sobre seu perfil de usuário e adicionar e atualizar o README do seu perfil, leia ["Gerenciando o README do seu perfil"](https://docs.github.com/en/github/setting-up-and-managing-your-github-profile/managing-your-profile-readme).
 
-### Your user profile
+### Usando markdown no GitHub
+Você já deve ter notado, mas você pode adicionar alguns estilos divertidos aos seus issues, pull requests e arquivos.
+["Markdown"](https://guides.github.com/features/mastering-markdown/) é uma maneira fácil de estilizar seus issues, pull requests e arquivos com uma sintaxe simples. Isso pode ser útil para organizar suas informações e torná-las mais fáceis de ler para outras pessoas. Você também pode inserir gifs e imagens para ajudar a transmitir seu ponto de vista!
 
-Your profile page tells people the story of your work through the repositories you're interested in, the contributions you've made, and the conversations you've had. You can also give the world a unique view into who you are with your profile README. You can use your profile to let future employers know all about you! 
-To learn more about your user profile and adding and updating your profile README, read ["Managing Your Profile README"](https://docs.github.com/en/github/setting-up-and-managing-your-github-profile/managing-your-profile-readme). 
+Para saber mais sobre como usar o dialeto Markdown do GitHub, leia ["Sintaxe básica de escrita e formatação"](https://docs.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax).
 
-### Using markdown on GitHub 
+### Engajando com a comunidade GitHub
+A comunidade GitHub é vasta.
+Existem muitos tipos de pessoas que usam o GitHub em seu dia a dia — estudantes como você, desenvolvedores profissionais, hobbistas trabalhando em projetos de código aberto e exploradores que estão apenas começando no mundo do desenvolvimento de software por conta própria. Existem muitas maneiras de interagir com a comunidade GitHub maior, mas aqui estão três lugares onde você pode começar.
 
-You might have noticed already, but you can add some fun styling to your issues, pull requests, and files. ["Markdown"](https://guides.github.com/features/mastering-markdown/) is an easy way to style your issues, pull requests, and files with some simple syntax. This can be helpful to organize your information and make it easier for others to read. You can also drop in gifs and images to help convey your point!
-To learn more about using GitHub’s flavor of markdown, read ["Basic Writing and Formatting Syntax"](https://docs.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax). 
+#### Marcando repositórios como favoritos
 
-### Engaging with the GitHub community
+Se você encontrar um repositório interessante ou quiser acompanhá-lo, marque-o com uma estrela! Quando você marca um repositório com uma estrela, isso também é usado como um sinal para exibir melhores recomendações em github.com/explore. Se você quiser voltar aos seus repositórios marcados, você pode fazê-lo através do seu perfil de usuário.
 
-The GitHub community is vast. There are many types of people who use GitHub in their day to day—students like you, professional developers, hobbyists working on open source projects, and explorers who are just jumping into the world of software development on their own. There are many ways you can interact with the larger GitHub community, but here are three places where you can start. 
+Para saber mais sobre como marcar repositórios com estrelas, leia ["Salvando repositórios com estrelas"](https://docs.github.com/en/github/getting-started-with-github/saving-repositories-with-stars).
 
-#### Starring repositories 
+#### Seguindo usuários
+Você pode seguir pessoas no GitHub para receber notificações sobre suas atividades e descobrir projetos em suas comunidades.
+Quando você segue um usuário, a atividade pública dele no GitHub aparecerá em seu painel para que você possa ver todas as coisas legais em que eles estão trabalhando.
+Para saber mais sobre como seguir usuários, leia ["Seguindo pessoas"](https://docs.github.com/en/github/getting-started-with-github/following-people).
 
-If you find a repository interesting or you want to keep track of it, star it! When you star a repository it’s also used as a signal to surface better recommendations on github.com/explore. If you’d like to get back to your starred repositories you can do so via your user profile. 
-To learn  more about starring repositories, read ["Saving Repositories with Stars"](https://docs.github.com/en/github/getting-started-with-github/saving-repositories-with-stars). 
+#### Navegando pelo GitHub Explore
 
-#### Following users 
+O GitHub Explore é um ótimo lugar para fazer exatamente isso… explorar 😄 Você pode encontrar novos projetos, eventos e desenvolvedores para interagir.
+Você pode conferir o site do GitHub Explore [em github.com/explore](https://github.com/explore). Quanto mais você interagir com o GitHub, mais personalizada será sua visualização do Explore.
 
-You can follow people on GitHub to receive notifications about their activity and discover projects in their communities. When you follow a user, their public GitHub activity will show up on your dashboard so you can see all the cool things they are working on. 
-To learn more about following users, read ["Following People"](https://docs.github.com/en/github/getting-started-with-github/following-people).
+## 📝 Próximos passos opcionais
+* Abra um pull request e informe seu professor que você terminou este curso.
+* Crie um novo arquivo markdown neste repositório.
+Deixe-os saber o que você aprendeu e o que você ainda está confuso! Experimente diferentes estilos!
+* Crie o README do seu perfil.
+Deixe o mundo saber um pouco mais sobre você! O que você está interessado em aprender? No que você está trabalhando?
+Qual é o seu hobby favorito? Saiba mais sobre como criar o README do seu perfil no documento ["Gerenciando o README do seu perfil"](https://docs.github.com/en/github/setting-up-and-managing-your-github-profile/managing-your-profile-readme).
+* Vá para o seu painel de usuário e crie um novo repositório.
+Experimente os recursos dentro desse repositório para se familiarizar com eles.
+* [Deixe-nos saber o que você gostou ou não gostou do conteúdo deste curso](https://support.github.com/contact/education). O que você gostaria de ver mais?
+O que seria interessante ou útil para sua jornada de aprendizado?
 
-#### Browsing GitHub Explore 
-
-GitHub Explore is a great place to do just that … explore :smile: You can find new projects, events, and developers to interact with.
-
-You can check out the GitHub Explore website [at github.com/explore](https://github.com/explore). The more you interact with GitHub the more tailored your Explore view will be. 
-
-## 📝 Optional next steps 
-
-* Open a pull request and let your teacher know that you’ve finished this course.  
-* Create a new markdown file in this repository. Let them know what you learned and what you are still confused about! Experiment with different styles!
-* Create your profile README. Let the world know a little bit more about you! What are you interested in learning? What are you working on? What's your favorite hobby? Learn more about creating your profile README in the document, ["Managing Your Profile README"](https://docs.github.com/en/github/setting-up-and-managing-your-github-profile/managing-your-profile-readme).
-* Go to your user dashboard and create a new repository. Experiment with the features within that repository to familiarize yourself with them. 
-* [Let us know what you liked or didn’t like about the content of this course](https://support.github.com/contact/education). What would you like to see more of? What would be interesting or helpful to your learning journey? 
-
-## 📚  Resources 
-* [A short video explaining what GitHub is](https://www.youtube.com/watch?v=w3jLJU7DT5E&feature=youtu.be) 
-* [Git and GitHub learning resources](https://docs.github.com/en/github/getting-started-with-github/git-and-github-learning-resources) 
-* [Understanding the GitHub flow](https://guides.github.com/introduction/flow/)
-* [How to use GitHub branches](https://www.youtube.com/watch?v=H5GJfcp3p4Q&feature=youtu.be)
-* [Interactive Git training materials](https://githubtraining.github.io/training-manual/#/01_getting_ready_for_class)
+## 📚 Recursos
+* [Um vídeo curto explicando o que é o GitHub](https://www.youtube.com/watch?v=w3jLJU7DT5E&feature=youtu.be)
+* [Recursos de aprendizado de Git e GitHub](https://docs.github.com/en/github/getting-started-with-github/git-and-github-learning-resources)
+* [Entendendo o fluxo do GitHub](https://guides.github.com/introduction/flow/)
+* [Como usar branches do GitHub](https://www.youtube.com/watch?v=H5GJfcp3p4Q&feature=youtu.be)
+* [Materiais de treinamento interativos de Git](https://githubtraining.github.io/training-manual/#/01_getting_ready_for_class)
 * [GitHub's Learning Lab](https://lab.github.com/)
-* [Education community forum](https://education.github.community/)
-* [GitHub community forum](https://github.community/)
+* [Fórum da comunidade de educação](https://education.github.community/)
+* [Fórum da comunidade GitHub](https://github.community/)
+
+## Sobre
+senaiinformatica-cai2025-aula-git-github-starter-course criado pelo GitHub Classroom
